@@ -1,0 +1,8 @@
+input[type="submit"] {color: #FFF;
+                    background-image: url("./images/matchacloseup.png");
+                    border-style:outset; border-color: #437950;
+                    border-radius: 10px; height:50px;
+                    font-family: "Trebuchet MS", sans-serif;
+                    font-size: 20px; text-shadow: 2px 2px 4px #000;}                    
+input[type="submit"]:hover {background-image: url("./images/matchacloseupfaded.png");}
+input[type="radio"], input[type="checkbox"] {accent-color: #6BBA7F;}

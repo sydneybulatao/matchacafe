@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Title>Order Now</Title>
+    <style type="text/css">
+        #pictures {display: inline; position: relative; width: 100%; height: 200px;}
+        .pic {width: 500px; display: inline;}
+    </style>
+    <link rel="icon" href="./favicon.ico">
+    <link type="text/css" rel="stylesheet" href="mainstyle.css">
+    <link type="text/css" rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <ul id="nav">
+        <li><a class="active" href="order.html">ORDER</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="index.html">HOME</a></li>
+    </ul>
+    
+    <div id="header">
+        <h1>Order Now</h1>
+        <center><h2>WE ARE EXCITED TO RECEIVE YOUR ORDER!</h2></center>
+    </div>
+    
+    <div id="main">
+    <form action='thankyou.html' method='post'>
+    <h2>FIRST NAME:</h2><input type="text" name='firstName' id='first_name' required='1'>
+    <br />
+    <h2>LAST NAME:</h2><input type="text" name='lastName' id='last_name' required='1'>
+    <br />
+    <h2>PHONE NUMBER:</h2>
+    <input type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" name='phone' id='phone_num' required='1'>
+    <br />
+    <h2>CUSTOMIZE YOUR MATCHA:</h2>
+    <h3>Hot or Iced?</h3>
+        <input type="radio" name="ice" value="no">hot ($5) 
+        <img src="./icon/hot.png" alt="Hot Drink" height=35px;>
+        <input type="radio" name="ice" value="yes">iced ($5.50)
+        <img src="./icon/iced.png" alt="Iced Drink" height=35px;>
+    <br />
+    <h3>What Kind of Milk?</h3>
+        <input type="radio" name="milk" value="whole">whole
+        <img src="./icon/cow.png" alt="Cow" height=35px;>
+        <input type="radio" name="milk" value="skim">skim
+        <img src="./icon/cow.png" alt="Cow" height=35px;>
+        <input type="radio" name="milk" value="almond">almond
+        <img src="./icon/nut.png" alt="Nut" height=35px;>
+        <input type="radio" name="milk" value="oat">oat 
+        <img src="./icon/oat.png" alt="Oat Milk" height=35px;>
+        <input type="radio" name="milk" value="soy">coconut
+        <img src="./icon/coconut.png" alt="Coconut Milk" height=35px;>
+    <br />
+    <h3>Want That Sweetened?</h3>
+        <input type="radio" name="sweetener" value="no">no thanks!
+        <input type="radio" name="sweetener" value="honey">honey (+$.25)
+        <img src="./icon/honey.png" alt="Honey" height=35px;>
+        <input type="radio" name="sweetener" value="sugar">sugar (+$.25)
+        <img src="./icon/sugar.png" alt="Sugar" height=35px;>
+        <input type="radio" name="sweetener" value="maple">maple syrup (+$.25)
+        <img src="./icon/maple.png" alt="Maple Syrup" height=45px;>
+    <br />
+    <h3>Add a Flavor!</h3>
+        <input type="checkbox" name="flavor" value="van">vanilla (+$.25)
+        <img src="./icon/vanilla.png" alt="Vanilla" height=35px;>
+        <br />
+        <input type="checkbox" name="flavor" value="lav">lavender (+$.25)
+        <img src="./icon/flower.png" alt="Flower" height=35px;>
+        <br />
+        <input type="checkbox" name="flavor" value="straw">strawberry (+$.25)
+        <img src="./icon/strawberry.png" alt="Strawberry" height=35px;>
+    <br />
+    <h3>Anything Else to Add?</h3>
+        <input type="checkbox" name="chkCreamer" value="creamer">dairy-free creamer (+$.25)
+        <img src="./icon/creamer.png" alt="Creamer" height=35px;>
+        <br />
+        <input type="checkbox" name="chkCinn" value="cinn">cinnamon
+        <img src="./icon/cinnamon.png" alt="Cinnamon" height=35px;>
+        <br />
+        <input type="checkbox" name="chkEspresso" value="espresso">shot of espresso (+$1)
+        <img src="./icon/espresso.png" alt="Espresso" height=35px;>
+    <br />
+    <br />
+    <input type="submit" value="Place Order!">   
+    </form> 
+    
+    </div>
+    
+    <div id="footer">
+        <h2 style="font-size:15px; margin:0;">VISIT US!
+        <div style="font-size: 15px; position: absolute; right: 8px;">
+            Icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </div>
+        <br /> 
+        123 Newbury Street, Boston, MA
+        </h2>
+    </div>
+</body>
+</html>
