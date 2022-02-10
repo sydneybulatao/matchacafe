@@ -16,12 +16,12 @@
         p a {font-family: "MuseoModerno", sans-serif; font-size: 25px;
              color: #437950;}
         .is-mobile {display: none;}
-        @media only screen and (max-width: 750px) {.is-mobile {display:block}; 
+        @media screen and (max-width: 750px) {.is-mobile {display:block}; 
         .no-mobile {display:none;};}
     </style>
     <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="mainstyle.css">
-    <meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <div class="no-mobile">
@@ -34,7 +34,9 @@
     
     <div id="header">
         <h1>MATCHA CAFE</h1>
-        <h2>DELICIOUS MATCHA MADE WITH LOVE ♥</h2>
+        <div class="no-mobile">
+            <h2>DELICIOUS MATCHA MADE WITH LOVE ♥</h2>
+        </div>
     </div>
     
     <div id="main">
