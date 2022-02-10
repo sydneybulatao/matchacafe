@@ -16,8 +16,9 @@
         p a {font-family: "MuseoModerno", sans-serif; font-size: 25px;
              color: #437950;}
         .is-mobile {display: none;}
-        @media screen and (max-width: 750px) {.is-mobile {display:block}; 
-        .no-mobile {display:none;};}
+        .no-mobile {display: block;}
+        @media screen and (max-width: 750px) {.no-mobile {display:none !important;}
+        .is-mobile {display:block};}
     </style>
     <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="mainstyle.css">
@@ -30,12 +31,23 @@
             <li><a href="contact.html">CONTACT US</a></li>
             <li><a class="active" href="index.html">HOME</a></li>
         </ul>
+        
+        <div id="header">
+            <h1>MATCHA CAFE</h1>
+                <h2>DELICIOUS MATCHA MADE WITH LOVE ♥</h2>
+        </div>
     </div>
     
-    <div id="header">
-        <h1>MATCHA CAFE</h1>
-        <div class="no-mobile">
-            <h2>DELICIOUS MATCHA MADE WITH LOVE ♥</h2>
+    <div class="is-mobile">
+        <ul id="nav">
+            <li><a href="order.html">ORDER</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a class="active" href="index.html">HOME</a></li>
+        </ul>
+        
+        <div id="header">
+            <h1>MATCHA CAFE</h1>
+                <h2>DELICIOUS MATCHA MADE WITH LOVE ♥</h2>
         </div>
     </div>
     
