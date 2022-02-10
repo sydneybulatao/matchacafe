@@ -41,3 +41,5 @@ h3 {font-size: 25px; font-weight:400; color: #437950;}
 
 #footer {font-size: 16px; background-color: #FFF; width:100%; padding: 3px;
         height: 45px; bottom: 0;}
+		
+.responsive {width: 100%; height: auto;}

@@ -15,17 +15,22 @@
         div.order:hover {background-color: #CFF0D8;}
         p a {font-family: "MuseoModerno", sans-serif; font-size: 25px;
              color: #437950;}
+        .is-mobile {display: none;}
+        @media (max-width: 750px) {.is-mobile {display:block}; 
+        .no-mobile {display:none;};}
     </style>
     <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="mainstyle.css">
     <meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
 </head>
 <body>
-    <ul id="nav">
-        <li><a href="order.html">ORDER</a></li>
-        <li><a href="contact.html">CONTACT US</a></li>
-        <li><a class="active" href="index.html">HOME</a></li>
-    </ul>
+    <div class="no-mobile">
+        <ul id="nav">
+            <li><a href="order.html">ORDER</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a class="active" href="index.html">HOME</a></li>
+        </ul>
+    </div>
     
     <div id="header">
         <h1>MATCHA CAFE</h1>
@@ -33,7 +38,8 @@
     </div>
     
     <div id="main">
-        <img src= "./images/matchalatte.jpg" alt="Matcha Latte" height= 500px>
+        <img src= "./images/matchalatte.jpg" alt="Matcha Latte" class="responsive"
+         style="max-width: 1300px;">
         <br /><br />
         
         <div class="order">
@@ -57,7 +63,8 @@
         </div>
         
         <br /> <br /> <br />
-        <img src="./images/dish.jpg" alt="Dish of Matcha" height=500px>
+        <img src="./images/dish.jpg" alt="Dish of Matcha" class="responsive"
+         style="max-width: 550px;">
         <h2 style="font-size:30px">ABOUT OUR MATCHA...</h2>
         <p style="font-size:20px">
             We use ceremonial grade 
