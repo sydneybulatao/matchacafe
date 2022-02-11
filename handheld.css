@@ -37,12 +37,12 @@ h3 {font-size: 6vw; font-weight:400; color: #437950;}
          background-image: url("./images/headerimage.png"); 
          background-size: auto; z-index: 1;}
          
-#main {padding: 200px 0px; text-align: center; font-size: 35px;}
+#main {padding: 200px 0px; text-align: center; font-size: 20px;}
 
 #footer {font-size: 16px; background-color: #FFF; width:100%; padding: 3px;
         height: 45px; bottom: 0;}
 		
 .responsive {width: 100%; height: auto;}
 
-input[type="radio"], input[type="checkbox"] {accent-color: #6BBA7F; transform: scale(2);
+input[type="radio"], input[type="checkbox"] {accent-color: #6BBA7F; transform: scale(1.5);
                                              z-index: 0;}
